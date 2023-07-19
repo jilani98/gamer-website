@@ -1,0 +1,42 @@
+
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    padding: 30px 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-list ul li{
+    list-style: none;
+    padding: 20px;
+}
+.header-list ul li a{
+    text-decoration: none;
+}
+.searchbar{
+    width: 262px;
+height: 56px;
+color: #0B0223;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+
+}
