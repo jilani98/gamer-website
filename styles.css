@@ -5,9 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 30px 100px;
 }
 header{
-    padding: 30px 100px;
+    
 }
 .header{
     display: flex;
@@ -39,4 +40,100 @@ color: #0B0223;
 border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
 
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.header-img{
+    display: flex;
+}
+
+.header-img div{
+    width: 50%;
+}
+.image{
+    background-image: url(./images/Group\ 14.png);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-pink{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(238, 108, 130);
+
+}
+.btn-blue{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+.mid-gamer{
+    display: flex;
+
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.details{
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+}
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.funny-videos{
+  text-align: center;
+}
+.extra{
+    margin-top: 30px;
+    display: flex;
+   
+    width: 70%;
+    height: 600px;
+   
+
+
+ 
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   margin-left: 340px;
+
+    
+}
+.extra-image{
+  height: 500px;
+position: relative;
+  top: -40px;
+
+  
+
+}
+
+.extra-img{
+    position: absolute;
+ bottom: 0;
+ right:330px ;
+  
+
+  
+
+ 
+
+}
+.about{
+    width: 80%;
+    text-align: left;
 }
