@@ -66,6 +66,7 @@ background: rgba(11, 2, 35, 0.10);
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 .btn-pink{
     border-radius: 10px;
@@ -288,3 +289,44 @@ margin-right: 20px;}
   .dis{
     display: none;
 }
+
+
+
+
+ .image :hover{
+    border: 5px solid black;
+  
+    border-radius: 10px;
+
+}
+
+
+.hoverable-div {
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .pause-icon {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+  }
+  .watch-now{
+    color: red;
+   
+    font-weight: bolder;
+  }
+  .hoverable-div:hover .pause-icon {
+    visibility: visible;
+  
+  }
+
+  .image:hover{
+opacity: .5;
+  }
+  
