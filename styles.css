@@ -256,6 +256,7 @@ margin-right: 20px;}
     .extra{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 200px;
     }
     .extra-image{
         top: 20px;
@@ -269,10 +270,66 @@ margin-right: 20px;}
         text-align: -webkit-center;
         margin-right: 300px;
     }
+    .image-gallery{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mid-gamer{
+        flex-direction: column;
+    }
+    .details{
+        align-items: center;
+    }
+    .header-img{
+        flex-direction: column;
+    }
+    .image{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .banner-image{
+        width:300px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+    .header-list{flex-direction: column;}
+
+    .header-list ul{
+        flex-direction: column;
+    }
+   body{
+   
+
+   }
+
    
   
 }
 
+/* tab responsive */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+ 
+    .mid-gamer{
+        display: flex;
+        align-items: center;
+    }
+
+    .image-gallery{
+       display: flex;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        gap: 10px;
+        margin: 0 auto;
+
+    }
+
+
+  }
 
 
 
@@ -317,7 +374,7 @@ margin-right: 20px;}
     visibility: hidden;
   }
   .watch-now{
-    color: red;
+    color: rgb(223, 14, 14);
    
     font-weight: bolder;
   }
