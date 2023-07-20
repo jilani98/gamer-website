@@ -137,3 +137,69 @@ position: relative;
     width: 80%;
     text-align: left;
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+ 
+    
+    gap: 10px; /* You can adjust the gap between grid items as per your preference */
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   
+  }
+  
+  .grid-item {
+    padding: 20px;
+   display: flex;justify-content: center;
+   align-items: center;
+    text-align: center;
+   
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #0B0223;
+    color: white;
+    padding: 50px;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-desc{
+    display: flex;
+    gap: 30px;
+}
+
+.tweeter ,.facebook{
+    margin-right: 20px;
+}
+.footer-img{height: 40px;
+width: 40px;
+margin-right: 20px;}
+
+
+.footer-down{
+    display: flex;
+    
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
+}
+
+.footer-terms{
+    display: flex;
+    gap: 20px;
+   
+}
